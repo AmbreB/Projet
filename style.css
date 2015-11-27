@@ -1,0 +1,68 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #CCC;
+	margin:0;
+	padding:0;
+}
+ul {
+	margin:0;
+}
+.menu {
+	height: 50px;
+	background-color: #000;
+	margin-bottom: 30px;
+	padding-top: 27px;
+	font-size: 18px;
+}
+.menu ul li {
+	display:inline;
+	margin-right: 20px;
+	list-style-type: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color:white;
+}
+
+.menu ul li a:hover {
+	color:grey;
+}
+
+div + img {
+	width:100%;
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+	text-align: justify;
+}
+
+.container h1 {
+	color:purple;
+}
+
+.container p {
+	line-height: 25px;
+}
+
+.container img {
+	width: 600px;
+}
+.footer {
+	height: 50px;
+	background-color: black;
+	color:white;
+	padding:0;
+	margin-top: 30px;
+}
+.footer .prenom {
+ 	float: left;
+ 	margin-left: 20px;
+}
+
+.footer .cright {
+ 	float: right;
+ 	margin-right: 20px;
+}
